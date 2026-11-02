@@ -11,7 +11,8 @@ $(function () {
     }
 
     $.ajax({
-      url: "https://live.jaygreentree.org/v1/events/current.json",
+      //url: "https://live.jaygreentree.org/v1/events/current.json",
+        url: "https://donicachurch-web.staging.servd.dev/api/chop",
       success: function (data) {
         $('#churchonline_counter').show();
 
